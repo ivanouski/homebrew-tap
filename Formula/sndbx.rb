@@ -1,8 +1,8 @@
 class Sndbx < Formula
   desc "Small wrapper around docker run for running coding agents in a sandbox"
   homepage "https://github.com/ivanouski/sndbx/"
-  url "https://github.com/ivanouski/sndbx/archive/refs/tags/v0.42.0.tar.gz"
-  sha256 "6bdc612b2821e078129fb37306e40ca54d0f6ec52b051be12e1fe4db0686224c"
+  url "https://github.com/ivanouski/sndbx/archive/refs/tags/v0.43.0.tar.gz"
+  sha256 "4637c5b95dcbe166f55ac0b466bb1ce27561f3eb9afe2df1a359a9bcc6598c3c"
   license "MIT"
 
   bottle do
