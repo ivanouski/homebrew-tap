@@ -6,9 +6,9 @@ class Box < Formula
   license "MIT"
 
   bottle do
-    root_url "https://github.com/ivanouski/homebrew-tap/releases/download/box-0.4.0"
-    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "e5e9aae2fb9b599fb81e20a301faff484d0f3d2ab398c3d47fc4a92a6d8dcb20"
-    sha256 cellar: :any,                 x86_64_linux: "d9c438ff5e6b281b8fccf79534dba3bc4ac6a9a3bd2b0c6ef89e81b610887849"
+    root_url "https://github.com/ivanouski/homebrew-tap/releases/download/box-0.4.1"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "8412bfbcce56536547dd5b201cfa473e83c76321d8d36e155e833217b2c794ee"
+    sha256 cellar: :any,                 x86_64_linux: "e28b675da173fc183fd1465cf7dedd07faa578bd3b8dbdc66b735d7df636d1c6"
   end
 
   depends_on "rust" => :build
