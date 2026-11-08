@@ -5,6 +5,12 @@ class Istoria < Formula
   sha256 "d4d885578ebf048d4a74631b9f50076ed5063a612c3a09d743f5904267846453"
   license "MIT"
 
+  bottle do
+    root_url "https://github.com/ivanouski/homebrew-tap/releases/download/istoria-0.40.0"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "24efdd8a750507579647ec1cd2548eafb8b95d1a9116b38ea3f640097d432967"
+    sha256 cellar: :any,                 x86_64_linux: "29a6dbfa1e25200911c56b17659187945c23d84e3048bb26069ab8034ad30cb0"
+  end
+
   depends_on "rust" => :build
 
   def install
