@@ -1,8 +1,8 @@
 class Box < Formula
   desc "Lists, prunes and stops docker containers, images and volumes, with a dashboard"
   homepage "https://github.com/mafflin/box/"
-  url "https://github.com/mafflin/box/archive/refs/tags/v0.4.0.tar.gz"
-  sha256 "372345780c2b3f05241922ed73818d7e3e1c001fc40c5be9490b11ae99feb4dc"
+  url "https://github.com/mafflin/box/archive/refs/tags/v0.4.1.tar.gz"
+  sha256 "dccb80fbb62007ee63a0f6fce514c354da59fb3a9a9c6eb8c8417a4f0d0e730b"
   license "MIT"
 
   bottle do
