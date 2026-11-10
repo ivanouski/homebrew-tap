@@ -5,6 +5,12 @@ class Charta < Formula
   sha256 "37b50e7bc9b6380b42c89b8b31590f5439271dd69f3e5726bb00e2ee0337bcba"
   license "MIT"
 
+  bottle do
+    root_url "https://github.com/ivanouski/homebrew-tap/releases/download/charta-0.2.1"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "41964207bf454518c968e28ed45a8354f7ac512620b1506f5f3f07cdec1f59ed"
+    sha256 cellar: :any,                 x86_64_linux: "fd529865b6348364de508718efd0dccc69abce61a23ab51b58e4c6bc857c7986"
+  end
+
   depends_on "rust" => :build
 
   def install
