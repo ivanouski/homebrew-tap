@@ -1,8 +1,8 @@
 class Sndbx < Formula
   desc "Small wrapper around docker run for running coding agents in a sandbox"
   homepage "https://github.com/ivanouski/sndbx/"
-  url "https://github.com/ivanouski/sndbx/archive/refs/tags/v0.45.0.tar.gz"
-  sha256 "4ea84963fda49299ffce838a5c66d6b053824ed06d66af7fd9021a27edeb39bb"
+  url "https://github.com/ivanouski/sndbx/archive/refs/tags/v0.45.1.tar.gz"
+  sha256 "bd8464a79be371752415be603aef067da8590aceefcff83c9b69444f733c3946"
   license "MIT"
 
   bottle do
@@ -18,7 +18,7 @@ class Sndbx < Formula
     # Where sndbx build finds images without an images_dir setting; opt_pkgshare stays put across upgrades
     ENV["SNDBX_IMAGES_DIR"] = opt_pkgshare/"images"
     system "cargo", "install", *std_cargo_args
-    bash_completion.install "completions/bash/sndbx"
+    bash_completion.install "completions/bash/_sndbx"
     zsh_completion.install "completions/zsh/_sndbx"
   end
 
