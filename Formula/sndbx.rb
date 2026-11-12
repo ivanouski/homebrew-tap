@@ -6,9 +6,9 @@ class Sndbx < Formula
   license "MIT"
 
   bottle do
-    root_url "https://github.com/ivanouski/homebrew-tap/releases/download/sndbx-0.45.2"
-    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "88e58ccae682e378cbf482b5dd5b4b1e2ac38a8faf37083fc688d4afde3b41ae"
-    sha256 cellar: :any,                 x86_64_linux: "7674fad225088170e1aa448c834bcb7007c8f5711694dec2cd36a873d75d4354"
+    root_url "https://github.com/ivanouski/homebrew-tap/releases/download/sndbx-0.46.0"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "b30828110a0363da450203649f9ed821c53fef1cae9d02e4afd588104dbb30d6"
+    sha256 cellar: :any,                 x86_64_linux: "1be24528bd4d1786d3c0de02404ab4929ab9bddffa3a6f867bc8bccd8d83beaf"
   end
 
   depends_on "rust" => :build
