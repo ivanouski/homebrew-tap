@@ -1,8 +1,8 @@
 class Istoria < Formula
   desc "Bash history finder that forgives typos"
   homepage "https://github.com/ivanouski/istoria/"
-  url "https://github.com/ivanouski/istoria/archive/refs/tags/v0.41.0.tar.gz"
-  sha256 "06eb1267b78f019c3320e3571585dc6dd01245483986a7cd88e1bffdc5f42750"
+  url "https://github.com/ivanouski/istoria/archive/refs/tags/v0.42.0.tar.gz"
+  sha256 "07849178b4b35afa79e6076a2d8b9cda1bff0a35d0054fd872cf1a0dee9bc25d"
   license "MIT"
 
   bottle do
